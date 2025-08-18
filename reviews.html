@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы | Репетитор по математике</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="prices.html">Цены</a>
+                <a href="reviews.html">Отзывы</a>
+                <a href="contact.html">Контакты</a>
+            </nav>
+            <button id="theme-toggle">Тёмная тема</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Отзывы учеников</h1>
+            <p>Реальные результаты и впечатления моих студентов</p>
+        </section>
+
+        <section class="section">
+            <div id="reviews-list" class="reviews-grid">
+                <div class="card review-card">
+                    <p><strong>Анна (11 класс):</strong> Благодаря занятиям сдала ЕГЭ на 86 баллов!</p>
+                    <div class="review-date">15 мая 2025</div>
+                </div>
+                <div class="card review-card">
+                    <p><strong>Игорь (9 класс):</strong> Поднял уровень по математике с 3 до 4 за 3 месяца.</p>
+                    <div class="review-date">22 апреля 2025</div>
+                </div>
+                <div class="card review-card">
+                    <p><strong>Мария (8 класс):</strong> Стало интересно учить математику!</p>
+                    <div class="review-date">10 марта 2025</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="card">
+                <h2 class="page-title">Оставить отзыв</h2>
+                <form class="review-form">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <textarea name="review" placeholder="Ваш отзыв" required></textarea>
+                    <button type="submit" class="button">Отправить отзыв</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Репетитор по математике. Все права защищены.</p>
+    </footer>
+</body>
+</html>

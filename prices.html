@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цены на занятия | Репетитор по математике</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="prices.html">Цены</a>
+                <a href="reviews.html">Отзывы</a>
+                <a href="contact.html">Контакты</a>
+            </nav>
+            <button id="theme-toggle">Тёмная тема</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Программы обучения</h1>
+            <p>Индивидуальный подход для каждого ученика</p>
+        </section>
+
+        <section class="courses-section">
+            <div class="course-category">
+                <h2>Школьная программа</h2>
+                <div class="courses-grid">
+                    <div class="card price-card compact">
+                        <div class="course-badge">Базовый</div>
+                        <h3>Математика без пробелов</h3>
+                        <p class="course-description">Устраняем пробелы в знаниях за прошлые годы</p>
+                        <ul class="course-features compact">
+                            <li>Диагностика знаний</li>
+                            <li>Индивидуальный план</li>
+                            <li>Регулярные занятия</li>
+                        </ul>
+                        <div class="price-container compact">
+                            <div class="price">900 ₽/час</div>
+                            <div class="price-alt">7 200 ₽/мес (8 занятий)</div>
+                        </div>
+                        <a href="contact.html" class="btn-accent">Записаться</a>
+                    </div>
+
+                    <div class="card price-card compact">
+                        <div class="course-badge">Экспресс</div>
+                        <h3>Домашка на отлично</h3>
+                        <p class="course-description">Помощь с домашними заданиями</p>
+                        <ul class="course-features compact">
+                            <li>Разовые консультации</li>
+                            <li>Чат поддержки</li>
+                            <li>Быстрые ответы</li>
+                        </ul>
+                        <div class="price-container compact">
+                            <div class="price">600 ₽/задача</div>
+                            <div class="price-alt">2 000 ₽/неделя</div>
+                        </div>
+                        <a href="contact.html" class="btn-accent">Записаться</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-category">
+                <h2>Подготовка к ОГЭ</h2>
+                <div class="courses-grid">
+                    <div class="card price-card compact highlight">
+                        <div class="course-badge">Полный курс</div>
+                        <h3>ОГЭ за 3 месяца</h3>
+                        <p class="course-description">Комплексная подготовка к экзамену</p>
+                        <ul class="course-features compact">
+                            <li>Тестирование уровня</li>
+                            <li>Чек-листы по темам</li>
+                            <li>3 пробных экзамена</li>
+                        </ul>
+                        <div class="price-container compact">
+                            <div class="price">14 400 ₽</div>
+                            <div class="price-alt">1 200 ₽/занятие (12 занятий)</div>
+                        </div>
+                        <a href="contact.html" class="btn-accent">Записаться</a>
+                    </div>
+
+                    <div class="card price-card compact">
+                        <div class="course-badge">Интенсив</div>
+                        <h3>Трудные темы ОГЭ</h3>
+                        <p class="course-description">Разбор сложных заданий</p>
+                        <ul class="course-features compact">
+                            <li>Геометрические задачи</li>
+                            <li>Реальная математика</li>
+                            <li>Индивидуальный формат</li>
+                        </ul>
+                        <div class="price-container compact">
+                            <div class="price">3 600 ₽/модуль</div>
+                            <div class="price-alt">3 занятия × 1 200 ₽</div>
+                        </div>
+                        <a href="contact.html" class="btn-accent">Записаться</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-category">
+                <h2>Подготовка к ЕГЭ</h2>
+                <div class="courses-grid">
+                    <div class="card price-card compact highlight">
+                        <div class="course-badge">Профиль</div>
+                        <h3>80+ баллов</h3>
+                        <p class="course-description">Интенсивная подготовка</p>
+                        <ul class="course-features compact">
+                            <li>Разбор второй части</li>
+                            <li>Авторские алгоритмы</li>
+                            <li>Анализ ошибок</li>
+                        </ul>
+                        <div class="price-container compact">
+                            <div class="price">19 200 ₽</div>
+                            <div class="price-alt">1 200 ₽/занятие (16 занятий)</div>
+                        </div>
+                        <a href="contact.html" class="btn-accent">Записаться</a>
+                    </div>
+
+                    <div class="card price-card compact">
+                        <div class="course-badge">Экспресс</div>
+                        <h3>ЕГЭ-Экспресс</h3>
+                        <p class="course-description">Сжатая подготовка</p>
+                        <ul class="course-features compact">
+                            <li>Ключевые темы</li>
+                            <li>Шаблоны решений</li>
+                            <li>Стратегия набора баллов</li>
+                        </ul>
+                        <div class="price-container compact">
+                            <div class="price">9 600 ₽/мес</div>
+                            <div class="price-alt">8 занятий по 90 мин</div>
+                        </div>
+                        <a href="contact.html" class="btn-accent">Записаться</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Репетитор по математике</p>
+    </footer>
+</body>
+</html>
